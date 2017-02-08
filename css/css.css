@@ -1,0 +1,394 @@
+body,
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	vertical-align: top;
+	border: none;
+}
+input {
+	padding: 0;
+	box-sizing: content-box;
+}
+.clearfix:after {
+	content: "";
+    clear: both;
+    display: block;
+}
+body {
+	background: url(../img/bj.png);
+	background-position: 300% 0, -30% 0;
+}
+.wrap {
+	background: url(../img/body.png) repeat-x,url(../img/head.jpg) repeat-x;
+	background-position: 300% 0, -30% 0;
+	padding: 0 24px;
+	margin: 0 auto;
+}
+.head {
+	padding: 19px 0 0 0;
+	background: url(../img/divX.png) repeat-x 0 100%;
+}
+.logo {
+	display: block;
+	width: 58px;
+	height: 58px;
+	padding: 12px 0 17px 0;
+	margin: 0 auto;
+}
+.logo:hover {
+	opacity: .7;
+}
+.head p {
+	height: 0;
+	overflow: hidden;
+}
+.head li {
+	border-top: 1px dotted #798479;
+}
+.head li:hover {
+	opacity: .5;
+}
+.portfolio {
+	display: block;
+	height: 46px;
+	background: url(../img/nav.png) no-repeat -293px 13px;
+}
+.journal {
+	display: block;
+	height: 46px;
+	background: url(../img/nav.png) no-repeat -293px -37px;
+}
+.respect {
+	display: block;
+	height: 46px;
+	background: url(../img/nav.png) no-repeat -293px -87px;
+}
+.contact {
+	display: block;
+	height: 46px;
+	background: url(../img/nav.png) no-repeat -293px -137px;
+}
+.luckis {
+	background: url(../img/divX.png) repeat-x 0 100%;
+	padding: 26px 0; 
+}
+.img {
+	width: 100%;
+	-webkit-mask-image: url(../img/img.png);
+}
+.list {
+	display: none;
+}
+.vitals {
+	background: url(../img/intel.png) repeat-x 0 100%;
+	padding: 24px 0;
+	display: none;
+}
+.intel {
+	background: url(../img/intel.png) repeat-x 0 100%;
+	padding: 24px 0;
+}
+.left {
+	display: none;
+}
+.D {
+	font: 12px/18px "Tahoma";
+	background: url(../img/divX.png) repeat-x 0 100%;
+	padding: 23px 0;
+}
+.Dleft img {
+	float: left;
+	margin-right: 5px;
+}
+.Dright {
+	text-indent: 1.5rem;
+}
+/* footer*/
+
+.footer {
+	background: url(../img/body.png) repeat-x,url(../img/footer.jpg) no-repeat;
+	background-position: -300% 100%,100% 100%;
+}
+.foot {
+	min-height: 510px;
+	padding: 0 24px;
+}
+.footList {
+	padding: 24px 0;
+	-webkit-column-count: 2;
+	border-bottom: 1px dotted #798479;
+}
+.footList li {
+	margin-bottom: 2px;
+}
+.footList li:hover a {
+	background: #ffff99;
+}
+.copyright {
+	font: 12px/18px "Tahoma";
+	color: #000;
+	margin: 24px 0;
+}
+.copyright h2 {
+	margin-bottom: 10px;
+}
+.copyright a {
+	color: #000;
+	background: #ffff99;
+}
+.copyright a:hover {
+	text-decoration: underline;
+}
+
+/* footer end */
+@media all and (min-width:481px) {
+	.head {
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 16px;
+	}
+	.nav {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.nav li {
+		float: left;
+		width: 21.1%;
+		border-top: none;
+		padding-left: 3.6%;
+		border-right: 1px dotted #798479;
+	}
+	li:nth-of-type(4) {
+		border-right: none;
+	}
+	.nav li a {
+		height: 89px;
+	}
+	.portfolio {
+		background: url(../img/nav.png) no-repeat 0 15px;
+	}
+	.journal {
+		background: url(../img/nav.png) no-repeat 0 -126px;
+	}
+	.respect {
+		background: url(../img/nav.png) no-repeat 0 -265px;
+	}
+	.contact {
+		background: url(../img/nav.png) no-repeat 0 -404px;
+	}
+	.list {
+		display: block;
+		background: url(../img/divX.png) repeat-x 0 100%;
+		padding: 26px 0;
+	}
+	.list li {
+		float: left;
+		width: 48%;
+		margin-right: 2%;
+		margin-bottom: 2%;
+	}
+	.list li a:hover {
+		text-decoration: underline;
+	}
+	li:nth-of-type(3) {
+		margin-bottom: 0;
+	}
+	li:nth-of-type(4) {
+		margin-bottom: 0;
+	}
+	.list a {
+		display: block;
+		min-height: 130px;
+		border-radius: 5px;
+		font: 12px "Tahoma";
+		color: #ffffe6;
+		background: url(../img/libj.jpg) repeat-x -100px -75px;
+		padding: 30px 20px 0;
+	}
+	.list p {
+		width: 89px;
+		margin-top: 15px;
+	}
+	.vitals {
+		display: block;
+	}
+	.left {
+		display: block;
+	}
+	.intel {
+		width: 100%;
+		background: url(../img/intel.png) repeat-x 0 100%;
+	}
+	.Fvitals {
+		background: url(../img/intel.png) repeat-x 0 100%;
+		padding: 24px 0;
+	}
+	.Fvitals h3 {
+		float: left;
+		width: 22%;
+		margin-right: 3%; 
+	}
+	.Fvitals p {
+		float: left;
+	}
+	.name {
+		background: url(../img/intel.png) repeat-x 0 100%;
+	}
+	.name li {
+		float: left;
+		width: 22%;
+		margin-right: 3%;
+		font: 14px/34px "Tahoma";
+		color: #000;
+		padding: 24px 0;
+	}
+	li:nth-of-type(4) {
+		margin-right: 0;
+	}
+	.AiCA {
+		background: url(../img/divX.png) repeat-x 0 100%;
+		margin-bottom: 24px;
+	}
+	.AiCA li {
+		float: left;
+		width: 22%;
+		margin-right: 3%;
+		font: 14px/34px "Tahoma";
+		color: #000;
+		padding: 24px 0;
+	}
+	.D {
+		width: 100%;
+		font: 12px/18px "Tahoma";
+		-webkit-column-count: 2;
+		-webkit-column-gap: 24px;
+	}
+	/*footer*/
+	
+	.foot {
+		min-height: 310px;
+	}	
+	.footList {
+		float: left;
+		width: 46%;
+		border-bottom: 0;
+	}
+	.copyright {
+		float: right;
+		width: 46%;
+		border-left: 1px dotted #798479;
+		padding-left: 3%;
+	}
+	/*footer end*/
+}
+@media all and (min-width: 751px) {
+	.head h1 {
+		float: left;
+		width: 58px;
+	}
+	.nav {
+		float: right;
+		width: 68.5%;
+		margin-right: 5.95%;
+	}
+	li:nth-of-type(1) {
+		border-left: 1px dotted #798479;
+	}
+	li:nth-of-type(4) {
+		border-right: 1px dotted #798479;
+	}
+	.list li {
+		float: left;
+		width: 23.1%;
+		border-right: none;
+		margin-right: 2.48%;
+		margin-bottom: 0;
+	}
+	li:nth-of-type(4) {
+		margin-right: 0;
+	}
+	.list a {
+		min-height: 168px;
+		padding-top: 59px;
+	}
+	.matter {
+		background: url(../img/divX.png) repeat-x 0 100%;
+	}
+	.left {
+		float: left;
+		width: 63.2%;
+		border-right: 1px dotted #798479;
+		padding-right: 15px;
+		margin: 24px 0;
+	}
+	.vitals {
+		margin-top: -24px;
+	}
+	.AiCA {
+		background: none;
+		margin-bottom: -24px;
+	}
+	.right {
+		float: right;
+		width: 31.6%;
+	}
+	.left li {
+		border: none; 
+	}
+	.D {
+		-webkit-column-count: 1;
+		background: none;
+	}
+
+	/*footer*/
+	.footList {
+		width: 14%;
+		margin-left: 3px;
+		-webkit-column-count: 1;
+	}
+	.footList li {
+		border-right: 0;
+	}
+	.copyright {
+		float: left;
+		width: 18%;
+		border-right: 1px dotted #798479;
+		padding-right: 3%;
+	}
+
+	/*footer end*/
+}
+@media all and  (min-width: 1260px) {
+	.head {
+		width: 1260px;
+		margin: 0 auto;
+	}
+	.luckis {
+		width: 1260px;
+		margin: 0 auto;
+	}
+	.list {
+		width: 1260px;
+		margin: 0 auto;
+	}
+	.matter {
+		width: 1260px;
+		margin: 0 auto;
+	}
+	.foot {
+		width: 1260px;
+		margin: 0 auto;
+	}
+}
